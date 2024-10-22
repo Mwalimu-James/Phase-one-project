@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Applicatio Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form class="container mt-4">
+        <div class="mb-3">
+            <label for="Company" class="form-label">CompanyName</label>
+            <input type="text" class="form-control" id="Company" name="CompanyPosition" required>
+        </div>
+        <div class="mb-3">
+            <label for="Application" class="form-label">DateOfApplication</label>
+            <input type="text" class="form-control" id="Application" name="DateofApplication" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="mb-3">
+            <label for="Position" class="form-label">JobPosition</label>
+            <input type="text" class="form-control" id="Position" name="JobPosition" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Company</th>
+            <th scope="col">Application</th>
+            <th scope="col">Position</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody id="body">
+          
+         
+        </tbody>
+    </table>
+<script src="script.js"></script>
+</body>
+</html>
