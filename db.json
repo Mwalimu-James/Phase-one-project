@@ -1,3 +1,25 @@
 {
-  "Job Application": []
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "password123"
+    }
+  ],
+  "jobApplications": [
+    {
+      "id": "face",
+      "company": "NextGen Technologies",
+      "position": "man",
+      "dateApplied": "2024-10-03",
+      "status": "applied",
+      "whereApplied": "linkdelin",
+      "methodOfApplication": "onsite"
+    }
+  ]
 }
