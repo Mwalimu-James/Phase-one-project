@@ -1,20 +1,19 @@
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #2b2f38; /* Dark blue-gray */
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 h1, h2 {
-    color: #d0dd12;
+    color: #364f63; /* Slate blue-gray */
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 form {
-    background-color: #85388b;
+    background-color: #f15b5b; /* Coral pink */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
@@ -26,7 +25,7 @@ input, select {
     padding: 10px;
     width: calc(100% - 24px);
     max-width: 300px;
-    border: 1px solid #c2bd96;
+    border: 1px solid #5d5f66; /* Dark slate-gray */
     border-radius: 4px;
     font-size: 14px;
     box-sizing: border-box;
@@ -34,8 +33,8 @@ input, select {
 
 button {
     padding: 10px 15px;
-    background-color: #060aec;
-    color: rgb(203, 204, 154);
+    background-color: #4e586e; /* Muted slate-blue */
+    color: #dbd5b6; /* Light beige */
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -43,7 +42,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Greenish hover color */
 }
 
 table {
@@ -53,7 +52,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #ac9c41; /* Gold-yellow */
 }
 
 th, td {
@@ -67,15 +66,15 @@ th {
 }
 
 td {
-    background-color: #fff;
+    background-color: #d4a265; /* Golden tan */
 }
 
 table tr:nth-child(even) td {
-    background-color: #f9f9f9;
+    background-color: #bfb05a; /* Light goldenrod */
 }
 
 table tr:hover td {
-    background-color: #f1f1f1;
+    background-color: #bfb05a;
 }
 
 .section {
@@ -119,24 +118,23 @@ table tr:hover td {
 }
 
 .notification-success {
-    background-color: #d4edda;
+    background-color: #95be9f;
     color: #155724;
-    border: 1px solid #c3e6cb;
+    border: 1px solid #6b9274;
     border-radius: 4px;
     padding: 10px;
     margin-top: 10px;
 }
 
 .notification-error {
-    background-color: #f8d7da;
+    background-color: #a01621;
     color: #721c24;
-    border: 1px solid #f5c6cb;
+    border: 1px solid #b32533;
     border-radius: 4px;
     padding: 10px;
     margin-top: 10px;
 }
 
-/* Consistent spacing for form elements */
 input, select, button {
     display: block;
     margin-bottom: 10px;

@@ -2,24 +2,42 @@
   "users": [
     {
       "id": "1",
-      "username": "admin",
-      "password": "admin123"
+      "username": "kungu",
+      "password": "jameskungu123"
     },
     {
       "id": "2",
-      "username": "user1",
-      "password": "password123"
+      "username": "james",
+      "password": "kungujames321"
     }
   ],
   "jobApplications": [
     {
-      "id": "face",
+      "id": "new",
       "company": "NextGen Technologies",
       "position": "man",
       "dateApplied": "2024-10-03",
       "status": "applied",
       "whereApplied": "linkdelin",
       "methodOfApplication": "onsite"
+    },
+    {
+      "id": "784b",
+      "company": "Google",
+      "position": "Junior Developer",
+      "dateApplied": "2024-10-01",
+      "status": "applied",
+      "whereApplied": "website",
+      "methodOfApplication": "online"
+    },
+    {
+      "company": "Linkedlin",
+      "position": "junior developer",
+      "dateApplied": "2024-10-3",
+      "status": "interview",
+      "whereApplied": "website",
+      "methodOfApplication": "online",
+      "id": "e7f7"
     }
   ]
 }

@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.getElementById('login').style.display = 'none';
                         document.getElementById('dashboard').style.display = 'block';
                         sessionStorage.setItem('loggedInUser', JSON.stringify(user));
-                        getApplications(); // Fetch applications after login
+                        getApplications(); 
                     } else {
                         loginNotification.innerText = 'Invalid username or password!';
                     }
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(data => {
                 const applicationsHtml = data.map(application => `
                     <tr>
-                        <td>${application.id || 'N/A'}</td> <!-- Display ID if necessary -->
+                        <td>${application.id || 'N/A'}</td> 
                         <td>${application.company || 'N/A'}</td>
                         <td>${application.position || 'N/A'}</td>
                         <td>${application.dateApplied || 'N/A'}</td>

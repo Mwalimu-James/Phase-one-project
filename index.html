@@ -8,13 +8,11 @@
 </head>
 <body>
     <div id="app">
-        <!-- Welcome Section -->
         <div id="welcome" class="section">
             <h1>Welcome to Job Application Tracker</h1>
             <button id="loginBtn">Login</button>
         </div>
 
-        <!-- Login Section -->
         <div id="login" class="section" style="display: none;">
             <h1>Login</h1>
             <form id="loginForm">
@@ -24,8 +22,7 @@
             </form>
             <div id="loginNotification"></div>
         </div>
-
-        <!-- Dashboard Section -->
+  
         <div id="dashboard" class="section" style="display: none;">
             <h1>Your Job Applications</h1>
             <form id="applicationForm">
@@ -40,7 +37,7 @@
             <table id="applicationsTable">
                 <thead>
                     <tr>
-                        <th>ID</th> <!-- Add ID column -->
+                        <th>ID</th> 
                         <th>Company</th>
                         <th>Position</th>
                         <th>Date Applied</th>
@@ -56,7 +53,6 @@
             <div id="apiMethodsNotification"></div>
         </div>
 
-        <!-- API Methods Section -->
         <div id="apiMethods" class="section">
             <h2>Available API Methods</h2>
             <button id="getApplicationsBtn">GET /jobApplications</button>
